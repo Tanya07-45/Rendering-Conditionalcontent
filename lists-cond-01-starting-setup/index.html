@@ -25,7 +25,7 @@
       can point a data property,computed property.-->
       <!-- <ul v-if="goals.length > 0"> -->
       <ul v-else>
-        <li>Goal</li>
+        <li v-for="goal in goals">{{ goal }}</li>
       </ul>
     </section>
   </body>
